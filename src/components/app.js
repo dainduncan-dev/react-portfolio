@@ -13,11 +13,6 @@ import PortfolioDetail from "./portfolio/portfolio-detail";
 import NoMatch from "./pages/no-match";
 
 export default class App extends Component {
-  constructor() {
-    super();
-
-    this.getPortfolioItems = this.getPortfolioItems.bind(this)
-  }
   getPortfolioItems() {
     axios
       .get("https://garyduncan.devcamp.space/portfolio/portfolio_items")
