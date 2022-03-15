@@ -102,7 +102,7 @@ class Blog extends Component {
     return (
       <div className="blog-container">
         <BlogModal
-          handleSuccessfulNewBlogSubmission={this.handleNewBlogSubmission}
+          handleSuccessfulNewBlogSubmission={this.handleSuccessfulNewBlogSubmission}
           handleModalClose={this.handleModalClose}
           modalIsOpen={this.state.blogModalIsOpen}
         />

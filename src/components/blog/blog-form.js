@@ -92,7 +92,7 @@ export default class BlogForm extends Component {
           response.data.portfolio_blog
         );
       })
-      .catch((error) => {
+      .catch(error => {
         console.log("handleSubmit for blog error", error);
       });
 
