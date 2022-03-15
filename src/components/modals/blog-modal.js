@@ -36,7 +36,8 @@ export default class BlogModal extends Component {
                 style={this.customStyles}
                 onRequestClose={() => {
                     this.props.handleModalClose();
-                }} isOpen={this.props.modalIsOpen}
+                }} 
+                isOpen={this.props.modalIsOpen}
             >
                 <BlogForm handleSuccessfulFormSubmission={this.handleSuccessfulFormSubmission} />
             </ReactModal>
